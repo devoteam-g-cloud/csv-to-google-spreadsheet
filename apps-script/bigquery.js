@@ -25,7 +25,7 @@ function main() {
 /*
  *  queryJob: Expects an QueryRequest object, only required field is "query"
  *            https://cloud.google.com/bigquery/docs/reference/rest/v2/jobs/query#QueryRequest
- *  callback: This function will get the results from Big Query as a object:
+ *  callback: This function will get the results from Big Query as an object:
  *            {
  *              "headers": [],
  *              "data": [[],],
